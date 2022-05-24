@@ -34,8 +34,8 @@ nav{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    /*transition: transform .5s ease-in-out;*/
-    transform: translate(110%);
+    transition: transform .5s ease-in-out;
+    transform: translate(100%);
     box-shadow: 0 0 6px rgba(0, 0, 0, .5);
 }
 
@@ -338,5 +338,17 @@ footer{
 }
 
 @media (max-width: 500px) {
-    
+
+    .hamburguer{
+        top: 20px;
+        right: 20px;
+    }
+
+    .titulo{
+        font-size: 3em;
+    }
+
+    .agregar-imagen{
+        width: 90%;
+    }
 }
